@@ -25,8 +25,8 @@ class ChangeCityViewController: UIViewController {
         delegate?.userEnteredANewCityName(city: cityName)
         self.dismiss(animated: true, completion: nil)
     }
-
+    
     @IBAction func backButtonPressed(_ sender: AnyObject) {
         self.dismiss(animated: true, completion: nil)
-    }    
+    }
 }
